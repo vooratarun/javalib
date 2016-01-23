@@ -1,0 +1,19 @@
+Eclipse IDE Project
+
+Eclipse Europa:
+	Goto File>New>Java Project
+	and Choose from Existing Folder
+	Choose the eLibrary folder and import it.
+
+Eclipse Kepler:
+	Goto File>Import and choose General>Existing Archive
+	and Choose the eLibrary.zip from the e_Library Folder.
+
+
+Add the com.mysql.jdbc.Driver to the reference libraries by right clicking on the elibrary project in the left side and go to buildpath and add external archives and choose the jar file.
+
+Now import the elibrary.sql file into the database by creating eLibrary database first and then import sql file. Otherwise it will show errors.
+
+Noe goto DBConnections.java and update the username and password variables to connect to the database.
+
+Now run the project to see the output.
